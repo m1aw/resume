@@ -1,0 +1,134 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Hieu Do - Resume
+% 7/26/2016
+%
+% Reference:
+% Debarghya Das (http://debarghyadas.com)
+
+\documentclass[]{hieudo-build}
+
+
+\begin{document}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     TITLE NAME
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\namesection{António Ferreira}
+{\urlstyle{same}
+	\faHome \space \href{http://www.antónio.pt}{antónio.pt 
+	%\footnotesize{(xn--antnio-dxa.pt})
+	}\\
+	\faEnvelope \space \href{mailto:antonio.lcp.ferreira@gmail.com}{antonio.lcp.ferreira@gmail.com}\\
+	%\faGithub \href{https://github.com/m1aw}{   github.com/hieusydo}\\
+	\faLinkedinSquare \space \href{https://www.linkedin.com/in/antonioferreiraa}{linkedin.com/in/antonioferreiraa}
+}
+    
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     COLUMN ONE
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{minipage}[t]{0.25\textwidth} 
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     SKILLS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Skills}
+% \subsection{Programming}
+\location{Programming:}
+JavaScipt, TypeScript, Java, Kotlin, C\#, PHP, Bash\\ 
+\sectionsep
+\location{Frameworks:}
+Angular, Ionic, Express, Vert.x \\
+\sectionsep
+\location{Other Technologies:}
+CSS, Cordova, Android, RabbitMQ, MongoDB, SQL, Firebase \\
+\sectionsep
+\location{Tools:}
+Linux, Git, Vim, Docker, VS Code, JetBrains InteliJ \\
+
+\sectionsep
+
+\section{Languages}
+Portuguese (Native) \\
+English (Advanced)
+\sectionsep
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     COURSEWORK
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\sectionsep
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     COLUMN TWO
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\end{minipage} 
+\hfill
+\begin{minipage}[t]{0.7\textwidth} 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     EXPERIENCE
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Experience}
+
+\workplace{Xarevision}{Sep 2016 – present}\\
+\position{Software Developer}{Porto, Portugal}
+\vspace{0.9em} % Hacky fix for awkward extra vertical space
+\begin{tightemize}
+\item Worked on several projects both alone and within a team creating mobile applications for retail customers.
+\item Developed hybrid mobile applications using Ionic to target both Android and iOS.
+\item Integrated custom mobile hardware with Cordova using Android Native API's.
+\end{tightemize}
+\sectionsep
+
+\workplace{Xarevision}{Apr 2015 – Sep 2016} \\
+\position{IT Helpdesk}{Porto, Portugal}
+% \vspace{\topsep} % Hacky fix for awkward extra vertical space
+\begin{tightemize}
+\item Assisted customers of a Digital Signage solution in a Retail enviroment.
+\item Managed and troubleshooted an infrastructure of more than 500 Linux machines.
+\item Maintained customer satisfaction and resolved problems within SLA's.
+\end{tightemize}
+\sectionsep
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     EDUCATION
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Education} 
+\education{Barchelor of Informatics Engineering}{2014 - 2018}
+\descript{}
+\location{Instituto Superior de Engenharia do Porto}
+\sectionsep
+
+\education{Diploma in Network and Computer Systems}{2013 - 2014}
+\descript{}
+\location{ATEC - Academia de Formação do Porto}
+\sectionsep
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     PROJECTS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Projects}
+
+\runsubsection{Integrated Shelf.AI's search with Mangento}
+\descript{}
+\location{Final project for Bachelor’s degree, ISEP}
+Using Kotlin, Vert.x and RabbitMQ created an higly scalable API that provided the e-commerce platform Magento with acess to Shelf.AI search engine.
+\sectionsep 
+
+\end{minipage} 
+
+\centering
+\vspace{4cm}
+\footnotesize
+\DTMsetdatestyle{mylastupdate}
+\DTMdisplaydate{\the\year}{\the\month}{\the\day}{-1}
+
+\end{document}  
